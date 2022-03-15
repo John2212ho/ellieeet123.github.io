@@ -20,17 +20,16 @@ else {
       <p>You seem to be new here! Welcome to this fancy little site of mine.</p>
       <br>
       <p>Just wanted to let you know that we use cookies. Because I'm apparantly supposed to tell you that or something. Not to track you or anything like that, just to store little pieces of info to make the site work.</p>
-      <p>If you don't believe me, then you can check out <a href="https://github.com/ellieeet123/ellieeet123.github.io/">the source code</a> to see for yourself :)</p>
+      <p>If you don't believe me, then you can check out <a href="https://github.com/john2212ho/john2212ho.github.io">the source code</a> to see for yourself :)</p>
     `, 'Close');
     setCookie('cookieConsent', 'seen', 99999);
   }
   else {
     if (getCookie('msg4') == '') {
       showMessage(`
-        <h1>Discord Server</h1>
-        <p>Hi I made a discord for this site if you wanna join</p>
-        <a href="https://discord.gg/FnHykcjjC2">Link to join</a>
-        <p>If you're on a chromebook and Discord is blocked for you, then use your phone to go to <a href="/discord/">https://ellieeet123.github.io/discord/</a>. Or you can just click the link in the header.</p>
+        <h1>Credits</h1>
+        <p>Created by !$%&#^R</p>
+        
       `, 'Awesome');
       setCookie('msg4', 'seen', 100);
     }
